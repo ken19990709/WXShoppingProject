@@ -1,0 +1,18 @@
+/* pages/home/home.wxss */
+
+.recommend_pic{
+  width:100%;
+
+}
+
+.detail-box{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.detail-item{
+  flex:1;
+  width: 47%;
+
+  position: relative;
+}

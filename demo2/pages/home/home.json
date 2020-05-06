@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "w-swiper":"/components/w-swiper/w-swiper",
+    "w-detail-box":"/components/w-detail-box/w-detail-box",
+    "tab-control":"/components/tab-control/tab-control",
+    "recommend":"recommend"
+    
+
+          
+  }
+
+}

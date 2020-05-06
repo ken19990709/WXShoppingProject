@@ -1,0 +1,9 @@
+<!--pages/home/recommend.wxml-->
+<view class="recommend">
+  <block wx:for="{{recommend_data}}" wx:key="index">
+    <view class="recommend-item">
+      <image class="recommend-pic" src="{{item['url']}}" mode="widthFix"></image>
+      <view class="recommend-text">{{item.text}}</view> 
+    </view>
+  </block>
+</view>

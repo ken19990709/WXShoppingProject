@@ -1,0 +1,33 @@
+/* components/tab-control/tab-control.wxss */
+ .container{
+  display: flex;
+}
+.button{
+  flex:1;
+  text-align: center;
+}/*
+.active{
+
+  text-align: center;
+  border-bottom: solid blue;
+  padding:10px,0 ;
+
+} */
+
+
+.outer-box{
+  
+  display: flex;
+}
+.inner-box{
+  background: white;
+  flex:1;
+  text-align: center;
+}
+.active{
+  color:blue;
+
+  border-bottom: solid pink;
+  padding:10px,0 ;
+
+}
